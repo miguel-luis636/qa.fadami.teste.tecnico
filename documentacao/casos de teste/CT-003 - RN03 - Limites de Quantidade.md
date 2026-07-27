@@ -100,3 +100,11 @@ O sistema deve aceitar as quantidades **1** e **10**, respeitando os limites def
 - Sistema aceita valores negativos e gera total negativo
 - Campo de quantidade aceita números decimais (ex.: 1,5) sem tratamento
 - Botão "-" (decrementar), se existir, permite ir abaixo de 1
+
+
+## Pontos de atenção para bug (foco de investigação)
+ 
+- Sistema aceita Quantidade = 11 (ou mais) e calcula total acima do limite de negócio
+- Validação de máximo só ocorre visualmente (ex.: input trava em 10) mas o valor real enviado ao "backend" simulado excede o limite
+- Diferença de comportamento entre digitar o valor manualmente e usar botão "+" de incremento
+ 
