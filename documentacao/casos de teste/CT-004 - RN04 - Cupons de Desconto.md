@@ -118,15 +118,6 @@ Caso a regra de negócio exija correspondência exata com **DESC10**, o sistema 
 
 ---
 
-## Distribuição dos casos
-
-| Caso   | Categoria                      | Objetivo                                                               |
-| ------ | ------------------------------ | ---------------------------------------------------------------------- |
-| CT-013 | ✅ Positivo                     | Validar a aplicação correta do cupom **DESC10**                        |
-| CT-014 | ❌ Negativo (Validação)         | Validar a rejeição de um cupom inexistente                             |
-| CT-015 | ❌ Negativo (Exceção)           | Validar o tratamento de variações do cupom válido                      |
-| CT-016 | ⚠️ Valor-Limite / Consistência | Validar que o desconto permanece correto após alterações na quantidade |
-
 ## Pontos de atenção para bug (foco de investigação)
  
 - Desconto calculado incorretamente (ex.: 10% sobre valor unitário em vez do total do carrinho)
