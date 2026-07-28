@@ -148,7 +148,7 @@ MELHORIA-002
 | Entregável        |     Status     |
 | ----------------- | :------------: |
 | Plano de Testes   |        ✅       |
-| Casos de Teste    | ⏳ Em andamento |
+| Casos de Teste    |         ✅        |
 | Relatório de Bugs | ⏳ Em andamento |
 | Evidências        | ⏳ Em andamento |
 
@@ -159,7 +159,7 @@ MELHORIA-002
 | Item                | Valor                                 |
 | ------------------- | ------------------------------------- |
 | Ambiente            | Staging                               |
-| Navegador           | Google Chrome (última versão estável) |
+| Navegador           | Google Chrome e Brave (última versão estável) |
 | Sistema Operacional | Windows 11                            |
 | Resolução           | 1920 × 1080                           |
 | Documentação        | Markdown                              |
