@@ -144,7 +144,7 @@ O teste será considerado concluído quando:
 | Item                | Detalhe                             |
 | ------------------- | ----------------------------------- |
 | Ambiente            | Staging                             |
-| Navegador           | Google Chrome (última versão)       |
+| Navegador           | Google Chrome e Brave (última versão estável)      |
 | Sistema Operacional | Windows 11                          |
 | Resolução           | 1920 × 1080                         |
 | Documentação        | Markdown                            |
