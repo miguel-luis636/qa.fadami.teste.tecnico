@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=YELLOW&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 # Desafio Técnico QA Júnior — Checkout (Fadami)
@@ -7,6 +7,12 @@
 Repositório contendo a documentação produzida durante a realização do **Desafio Técnico para a vaga de Analista de Testes (QA Júnior)** da **Fadami**.
 
 O objetivo deste desafio foi validar funcionalmente o fluxo de checkout da aplicação disponibilizada, verificando sua conformidade com as Regras de Negócio fornecidas e documentando todos os artefatos produzidos durante o processo de testes.
+
+> **Nota sobre a organização do repositório**
+>
+> A estrutura deste projeto foi definida considerando o escopo e os requisitos do desafio técnico, buscando facilitar a avaliação dos artefatos produzidos (Plano de Testes, Casos de Teste, Relatório de Bugs e Evidências).
+>
+> Em projetos de maior porte, envolvendo múltiplos módulos, equipes ou ciclos contínuos de testes, a organização normalmente seria mais detalhada, adotando uma estrutura hierárquica para evitar uma quantidade excessiva de arquivos em um único diretório. Também seriam utilizados padrões de organização por módulos, funcionalidades, suítes de testes, releases ou sprints, além da integração com ferramentas de gerenciamento como Jira, Azure DevOps, Xray ou TestRail para centralização dos artefatos.
 
 ---
 
@@ -26,157 +32,18 @@ O objetivo deste desafio foi validar funcionalmente o fluxo de checkout da aplic
 
 https://desafioqafadami.lovable.app/
 
----
-
-# 🎯 Objetivo
-
-Validar o fluxo de checkout do produto **"Curso de Teste de Software"**, identificando possíveis defeitos antes de uma hipotética publicação em produção.
-
-Durante o desafio foram produzidos os seguintes artefatos:
-
-* Plano de Testes
-* Casos de Teste
-* Relatório de Bugs
-* Evidências (prints e/ou vídeos)
-
----
-
-# 📚 Regras de Negócio Avaliadas
-
-| ID   | Regra                                                                                                                                     |
-| ---- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| RN01 | Produto único com valor unitário de **R$ 50,00**                                                                                          |
-| RN02 | Nome Completo, CPF, E-mail e Quantidade são obrigatórios                                                                                  |
-| RN03 | Quantidade mínima de **1** e máxima de **10**                                                                                             |
-| RN04 | Cupom **DESC10** concede **10% de desconto**; qualquer outro deve exibir "Cupom inválido"                                                 |
-| RN05 | Total = (Quantidade × R$ 50,00) − Desconto                                                                                                |
-| RN06 | Ao finalizar o pedido deve ser exibido um modal de confirmação e o botão deve ser desabilitado imediatamente para evitar múltiplos envios |
-
----
-
-## 📁 Estrutura do repositório
- 
-```
-.
-├── README.md
-├── bug reports/
-│   └── bug                          # Um arquivo por bug (BUG-AAAAMMDD-NNN-titulo.md)
-│
-└── documentacao/
-    ├── plano de testes.md            # Estratégia e escopo dos testes
-    ├── metrica do repositorio.md     # Métricas de execução (cobertura, pass rate, etc.)
-    └── casos de teste/               # Casos de teste (CT-001 em diante)
-```
- 
----
-
-# 📄 Artefatos Entregues
-
-| Documento            | Descrição                                                                                                                        |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| 📋 Plano de Testes   | Estratégia, escopo, ambiente, critérios, riscos e planejamento da execução dos testes.                                           |
-| ✅ Casos de Teste     | Cenários elaborados a partir das regras de negócio e boas práticas de QA.                                                        |
-| 🐞 Relatório de Bugs | Defeitos encontrados contendo severidade, prioridade, passos para reprodução, resultado esperado, resultado obtido e evidências. |
-| 📸 Evidências        | Capturas de tela e/ou vídeos que comprovam os defeitos encontrados durante a execução.                                           |
-
----
-
-# 🧪 Estratégia de Teste
-
-A execução foi organizada nas seguintes etapas:
-
-1. Exploração inicial da aplicação;
-2. Levantamento das funcionalidades disponíveis;
-3. Análise das Regras de Negócio;
-4. Elaboração dos casos de teste;
-5. Execução dos testes funcionais;
-6. Testes de valor-limite;
-7. Testes exploratórios complementares;
-8. Registro dos defeitos encontrados;
-9. Organização das evidências;
-10. Revisão e entrega da documentação.
-
----
-
-# ✅ Tipos de Testes Aplicados
-
-| Tipo                                | Aplicado |
-| ----------------------------------- | :------: |
-| Testes Funcionais                   |     ✅    |
-| Testes de Valor-Limite              |     ✅    |
-| Testes de Validação de Campos       |     ✅    |
-| Testes Exploratórios                |     ✅    |
-| Responsividade *(quando aplicável)* |    ⚠️    |
-| Performance                         |     ❌    |
-| Segurança (Pentest)                 |     ❌    |
-| Automação                           |     ❌    |
-
----
-
-# 📌 Convenção de Nomenclatura
-
-## Casos de Teste
-
-```
-CT-001
-CT-002
-CT-003
 ...
-```
-
-## Bugs
-
-```
-BUG-001
-BUG-002
-BUG-003
-...
-```
-
-## Melhorias (quando aplicável)
-
-```
-MELHORIA-001
-MELHORIA-002
-...
-```
-
----
 
 # 📊 Entregáveis
 
-| Entregável        |     Status     |
-| ----------------- | :------------: |
-| Plano de Testes   |        ✅       |
-| Casos de Teste    |         ✅        |
-| Relatório de Bugs | ⏳ Em andamento |
-| Evidências        | ⏳ Em andamento |
+| Entregável | Status |
+|------------|:------:|
+| Plano de Testes | ✅ Finalizado |
+| Casos de Teste | ✅ Finalizado |
+| Relatório de Bugs | ✅ Finalizado |
+| Evidências | ✅ Finalizado |
 
----
-
-# 🛠 Ambiente de Teste
-
-| Item                | Valor                                 |
-| ------------------- | ------------------------------------- |
-| Ambiente            | Staging                               |
-| Navegador           | Google Chrome e Brave (última versão estável) |
-| Sistema Operacional | Windows 11                            |
-| Resolução           | 1920 × 1080                           |
-| Documentação        | Markdown                              |
-| Evidências          | Jam.dev                               |
-
----
-
-# 🐞 Classificação dos Defeitos
-
-| Severidade       | Critério                                                    |
-| ---------------- | ----------------------------------------------------------- |
-| **S1 — Crítico** | Impede a finalização da compra                              |
-| **S2 — Alto**    | Regra de negócio incorreta ou cálculo inconsistente         |
-| **S3 — Médio**   | Funcionalidade inconsistente sem bloquear o fluxo principal |
-| **S4 — Baixo**   | Problemas visuais, ortográficos ou cosméticos               |
-
----
+...
 
 # 📌 Observações
 
@@ -185,6 +52,7 @@ MELHORIA-002
 * Todos os dados utilizados durante os testes são fictícios.
 * As validações foram baseadas nas Regras de Negócio fornecidas para o desafio.
 * Situações não descritas na especificação foram avaliadas utilizando boas práticas de Qualidade de Software e usabilidade.
+* A estrutura da documentação foi organizada de forma objetiva para atender ao escopo deste desafio técnico. Em projetos maiores, recomenda-se uma organização mais granular dos artefatos (por módulos, funcionalidades, suítes de testes e versões), facilitando a manutenção, rastreabilidade e escalabilidade da documentação.
 
 ---
 
@@ -192,4 +60,6 @@ MELHORIA-002
 
 Agradeço à equipe da **Fadami** pela oportunidade de participar do processo seletivo e pela proposta deste desafio técnico, que possibilitou demonstrar minha abordagem para planejamento, execução e documentação de testes de software.
 
-Espero que este material reflita meu comprometimento com a qualidade, organização e melhoria contínua dos processos de teste.
+Além da execução dos casos de teste previstos, busquei aplicar conceitos estudados em boas práticas de Qualidade de Software, incluindo planejamento dos testes, rastreabilidade entre requisitos, casos de teste e defeitos, classificação de severidade, análise de possíveis causas raiz e utilização de evidências para apoiar a documentação dos problemas encontrados.
+
+Espero que este material reflita meu comprometimento com a qualidade, organização, aprendizado contínuo e evolução como profissional de QA.
