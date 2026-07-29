@@ -48,7 +48,7 @@ A mensagem de erro é apenas informativa; o botão "Finalizar Pedido" continua h
 
 | Campo | Valor |
 |-------|-------|
-| **Navegador** | Google Chrome (última versão) |
+| **Navegador** | Google Chrome/Brave (última versão) |
 | **Sistema Operacional** | Windows 11 |
 | **URL / Tela** | https://desafioqafadami.lovable.app/ — Checkout |
 | **Device** | Desktop |
