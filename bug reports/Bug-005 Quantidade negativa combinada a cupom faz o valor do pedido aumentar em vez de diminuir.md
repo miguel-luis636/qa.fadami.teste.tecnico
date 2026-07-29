@@ -52,7 +52,7 @@ O valor total do pedido aumenta ao aplicar o cupom DESC10 quando a Quantidade é
 
 | Campo | Valor |
 |-------|-------|
-| **Navegador** | Google Chrome (última versão) |
+| **Navegador** | Google Chrome/Brave (última versão) |
 | **Sistema Operacional** | Windows 11 |
 | **URL / Tela** | https://desafioqafadami.lovable.app/ — Checkout |
 | **Device** | Desktop |
