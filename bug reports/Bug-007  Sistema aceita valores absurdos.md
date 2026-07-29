@@ -46,8 +46,7 @@ O sistema aceita qualquer valor, de qualquer tamanho e composição de caractere
 
 | Campo | Valor |
 |-------|-------|
-| **Navegador** | Google Chrome (última versão) |
-| **Sistema Operacional** | Windows 11 |
+| **Navegador** | Google Chrome/Brave (última versão) || **Sistema Operacional** | Windows 11 |
 | **URL / Tela** | https://desafioqafadami.lovable.app/ — Checkout |
 | **Device** | Desktop |
 
