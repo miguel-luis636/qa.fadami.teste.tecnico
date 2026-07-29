@@ -51,7 +51,7 @@ O botão "Finalizar Pedido" permanece habilitado por trás do modal. Fechando o 
 
 | Campo | Valor |
 |-------|-------|
-| **Navegador** | Google Chrome (última versão) |
+| **Navegador** | Google Chrome/Brave (última versão) |
 | **Sistema Operacional** | Windows 11 |
 | **URL / Tela** | https://desafioqafadami.lovable.app/ — Checkout |
 | **Device** | Desktop |
