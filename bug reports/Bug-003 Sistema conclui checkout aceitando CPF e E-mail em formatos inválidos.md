@@ -52,7 +52,7 @@ O pedido é aceito e finalizado normalmente, independentemente do CPF ou E-mail 
 
 | Campo | Valor |
 |-------|-------|
-| **Navegador** | Google Chrome (última versão) |
+| **Navegador** | Google Chrome/Brave (última versão) |
 | **Sistema Operacional** | Windows 11 |
 | **URL / Tela** | https://desafioqafadami.lovable.app/ — Checkout |
 | **Device** | Desktop |
