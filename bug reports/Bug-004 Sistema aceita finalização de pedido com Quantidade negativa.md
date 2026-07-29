@@ -51,7 +51,7 @@ O sistema aceita a quantidade negativa e permite a finalização do pedido norma
 
 | Campo | Valor |
 |-------|-------|
-| **Navegador** | Google Chrome (última versão) |
+| **Navegador** | Google Chrome/Brave (última versão) |
 | **Sistema Operacional** | Windows 11 |
 | **URL / Tela** | https://desafioqafadami.lovable.app/ — Checkout |
 | **Device** | Desktop |
